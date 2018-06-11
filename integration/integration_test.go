@@ -33,7 +33,7 @@ var _ = Describe("Trumpeter", func() {
 	})
 
 	It("returns one of the best quotes, everybody knows", func() {
-		Eventually(session).Should(gbytes.Say(".* - President Trump"))
+		Eventually(session).Should(gbytes.Say(".+ - President Trump"))
 	})
 })
 
