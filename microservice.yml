@@ -1,0 +1,14 @@
+commands:
+  entrypoint:
+    help: Get the latest hot Trump tweet
+
+environment:
+  CONSUMER_KEY:
+    type: string
+  CONSUMER_SECRET:
+    type: string
+  ACCESS_TOKEN:
+    type: string
+  ACCESS_TOKEN_SECRET:
+    type: string
+
